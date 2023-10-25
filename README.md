@@ -21,3 +21,15 @@
 * Client authorization
 * History vault
 * User vault
+
+## Components.
+### Server
+Server MUST have ECDSA key pair. (aka. `SERVER_KEYPAIR`)
+
+### Client
+Client MAY contain many users.
+
+### User
+User MUST have ECDSA key pair. (aka. `USER_KEYPAIR`)
+
+User MUST use only one Server.
